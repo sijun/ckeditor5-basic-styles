@@ -43,15 +43,7 @@ export default class ItalicEditing extends Plugin {
 
 		editor.conversion.attributeToElement( {
 			model: ITALIC,
-			view: 'i',
-			upcastAlso: [
-				'em',
-				{
-					styles: {
-						'font-style': 'italic'
-					}
-				}
-			]
+			view: 'em'
 		} );
 
 		// Create italic command.
