@@ -4,22 +4,22 @@
  */
 
 /**
- * @module basic-styles/kbd/kbdui
+ * @module basic-styles/q/qui
  */
 
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 
-import kbdIcon from '../../theme/icons/kbd.svg';
+import qIcon from '../../theme/icons/q.svg';
 
-const KBD = 'kbd';
+const Q = 'q';
 
 /**
- * The kbd UI feature. It introduces the Kbd button.
+ * The q UI feature. It introduces the Q button.
  *
  * @extends module:core/plugin~Plugin
  */
-export default class KbdUI extends Plugin {
+export default class QUI extends Plugin {
 	/**
 	 * @inheritDoc
 	 */
@@ -28,15 +28,15 @@ export default class KbdUI extends Plugin {
 		const t = editor.t;
 
 		// Add bold button to feature components.
-		editor.ui.componentFactory.add(KBD, locale => {
-			const command = editor.commands.get(KBD);
+		editor.ui.componentFactory.add(Q, locale => {
+			const command = editor.commands.get(Q);
 			const view = new ButtonView(locale);
 
 			view.set({
-				label: t('Kbd'),
-				description: t('키보드 입력요소'),
-				icon: kbdIcon,
-				keystroke: 'CTRL+SHIFT+K',
+				label: t('Q'),
+				description: t('인라인 인용문 요소'),
+				icon: qIcon,
+				keystroke: 'CTRL+SHIFT+Q',
 				tooltip: true,
 				isToggleable: true
 			});
@@ -45,7 +45,7 @@ export default class KbdUI extends Plugin {
 
 			// Execute command.
 			this.listenTo(view, 'execute', () => {
-				editor.execute(KBD);
+				editor.execute(Q);
 				editor.editing.view.focus();
 			});
 

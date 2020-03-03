@@ -4,22 +4,22 @@
  */
 
 /**
- * @module basic-styles/kbd/kbdui
+ * @module basic-styles/ins/insui
  */
 
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 
-import kbdIcon from '../../theme/icons/kbd.svg';
+import insIcon from '../../theme/icons/ins.svg';
 
-const KBD = 'kbd';
+const INS = 'ins';
 
 /**
- * The kbd UI feature. It introduces the Kbd button.
+ * The ins UI feature. It introduces the Ins button.
  *
  * @extends module:core/plugin~Plugin
  */
-export default class KbdUI extends Plugin {
+export default class InsUI extends Plugin {
 	/**
 	 * @inheritDoc
 	 */
@@ -28,15 +28,15 @@ export default class KbdUI extends Plugin {
 		const t = editor.t;
 
 		// Add bold button to feature components.
-		editor.ui.componentFactory.add(KBD, locale => {
-			const command = editor.commands.get(KBD);
+		editor.ui.componentFactory.add(INS, locale => {
+			const command = editor.commands.get(INS);
 			const view = new ButtonView(locale);
 
 			view.set({
-				label: t('Kbd'),
-				description: t('키보드 입력요소'),
-				icon: kbdIcon,
-				keystroke: 'CTRL+SHIFT+K',
+				label: t('Ins'),
+				description: t('편집 - 삽입한 문구'),
+				icon: insIcon,
+				keystroke: 'CTRL+SHIFT+I',
 				tooltip: true,
 				isToggleable: true
 			});
@@ -45,7 +45,7 @@ export default class KbdUI extends Plugin {
 
 			// Execute command.
 			this.listenTo(view, 'execute', () => {
-				editor.execute(KBD);
+				editor.execute(INS);
 				editor.editing.view.focus();
 			});
 

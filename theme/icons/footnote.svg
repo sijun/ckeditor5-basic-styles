@@ -1,10 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
- <path 
-     style="fill:#4d4d4d;fill-opacity:1;stroke:none" 
-     d="M 4 3 L 4 19 L 5 19 L 11 19 L 11 18 L 5 18 L 5 4 L 17 4 L 17 12 L 18 12 L 18 3 L 17 3 L 5 3 L 4 3 z M 6 6 L 6 7 L 16 7 L 16 6 L 6 6 z M 6 8 L 6 9 L 12 9 L 12 8 L 6 8 z M 6 13 L 6 14 L 13 14 L 13 13 L 6 13 z "
-     />
- <path 
-     style="fill:#3daee9;fill-opacity:1;stroke:none" 
-     d="M 16 13 L 15 15 L 16 15 L 16 19 L 17 19 L 17 13 L 16 13 z M 6 15 L 6 16 L 13 16 L 13 15 L 6 15 z "
-     />
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1024px" height="1024px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+<path display="none" opacity="0.4" d="M634.895,849.271l-33.76-88.74H313.703l-33.76,90.671
+	c-13.181,35.364-24.436,59.236-33.755,71.615c-9.325,12.377-24.598,18.565-45.815,18.565c-18.006,0-33.92-6.591-47.746-19.77
+	c-13.826-13.185-20.735-28.136-20.735-44.852c0-9.646,1.604-19.614,4.819-29.899c3.218-10.288,8.523-24.598,15.916-42.926
+	l180.849-459.111c5.146-13.185,11.334-29.018,18.565-47.509c7.234-18.482,14.955-33.834,23.146-46.05
+	c8.205-12.219,18.976-22.107,32.32-29.663c13.337-7.558,29.814-11.331,49.427-11.331c19.931,0,36.571,3.773,49.913,11.331
+	c13.346,7.556,24.121,17.283,32.311,29.18c8.204,11.895,15.116,24.675,20.744,38.344c5.627,13.662,12.776,31.905,21.455,54.735
+	l184.715,456.216c14.465,34.729,21.699,59.964,21.699,75.717c0,16.396-6.836,31.431-20.498,45.095
+	c-13.666,13.662-30.143,20.493-49.432,20.493c-11.249,0-20.896-2.01-28.933-6.028c-8.042-4.021-14.797-9.485-20.259-16.4
+	c-5.467-6.905-11.331-17.519-17.602-31.826C644.777,872.819,639.395,860.199,634.895,849.271z M351.322,652.993h211.232
+	L455.971,361.22L351.322,652.993z"/>
+<polyline fill="none" stroke="currentColor" stroke-width="70" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	57.202,903.207 313.665,279.158 591.779,905.627 "/>
+<line fill="none" stroke="currentColor" stroke-width="70" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="154.81" y1="669.128" x2="486.788" y2="669.128"/>
+<g>
+	<path d="M741.696,392.194V200.184c-35.73,27.432-50.614,35.436-62.96,34.5c-8.419-0.639-8.839-1.056-14.01-4.905
+		c-5.268-3.921-6.549-7.53-6.549-13.722c0-7.172,0.422-9.16,3.492-14.169c2.636-4.301,4.49-7.54,15.883-12.886
+		c17.02-8.018,30.631-16.459,40.828-25.322c10.198-8.859,19.235-18.779,27.113-29.747c7.878-10.975,7.869-15.714,15.402-20.259
+		c2.983-1.8,6.895-3.798,13.505-3.798c7.456,0,13.433,2.885,17.936,8.652c4.5,5.766,6.752,13.715,6.752,23.842v241.596
+		c0,28.273-9.636,42.411-28.907,42.411c-8.583,0-15.474-2.884-20.677-8.65C744.299,411.959,741.696,403.445,741.696,392.194z"/>
+	
+		<line fill="none" stroke="currentColor" stroke-width="40" stroke-linecap="round" stroke-miterlimit="10" x1="708.962" y1="413.793" x2="834.462" y2="413.793"/>
+</g>
+<g>
+	
+		<line fill="none" stroke="currentColor" stroke-width="60" stroke-linecap="round" stroke-miterlimit="10" x1="645.66" y1="94.673" x2="567.721" y2="94.673"/>
+	
+		<line fill="none" stroke="currentColor" stroke-width="60" stroke-linecap="round" stroke-miterlimit="10" x1="567.721" y1="471.381" x2="567.721" y2="94.673"/>
+	
+		<line fill="none" stroke="currentColor" stroke-width="60" stroke-linecap="round" stroke-miterlimit="10" x1="645.66" y1="471.381" x2="567.721" y2="471.381"/>
+</g>
+<g>
+	
+		<line fill="none" stroke="currentColor" stroke-width="60" stroke-linecap="round" stroke-miterlimit="10" x1="889.412" y1="94.673" x2="967.352" y2="94.673"/>
+	
+		<line fill="none" stroke="currentColor" stroke-width="60" stroke-linecap="round" stroke-miterlimit="10" x1="967.352" y1="471.381" x2="967.352" y2="94.673"/>
+	
+		<line fill="none" stroke="currentColor" stroke-width="60" stroke-linecap="round" stroke-miterlimit="10" x1="889.412" y1="471.381" x2="967.352" y2="471.381"/>
+</g>
 </svg>

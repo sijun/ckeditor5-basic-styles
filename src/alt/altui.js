@@ -28,27 +28,28 @@ export default class AltUI extends Plugin {
 		const t = editor.t;
 
 		// Add bold button to feature components.
-		editor.ui.componentFactory.add( ALT, locale => {
-			const command = editor.commands.get( ALT );
-			const view = new ButtonView( locale );
+		editor.ui.componentFactory.add(ALT, locale => {
+			const command = editor.commands.get(ALT);
+			const view = new ButtonView(locale);
 
-			view.set( {
-				label: t( 'Alt' ),
+			view.set({
+				label: t('I'),
+				description: t('외국어 원문 표기'),
 				icon: altIcon,
 				keystroke: 'CTRL+SHIFT+A',
 				tooltip: true,
 				isToggleable: true
-			} );
+			});
 
-			view.bind( 'isOn', 'isEnabled' ).to( command, 'value', 'isEnabled' );
+			view.bind('isOn', 'isEnabled').to(command, 'value', 'isEnabled');
 
 			// Execute command.
-			this.listenTo( view, 'execute', () => {
-				editor.execute( ALT );
+			this.listenTo(view, 'execute', () => {
+				editor.execute(ALT);
 				editor.editing.view.focus();
-			} );
+			});
 
 			return view;
-		} );
+		});
 	}
 }

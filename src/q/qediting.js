@@ -4,28 +4,28 @@
  */
 
 /**
- * @module basic-styles/kbd/kbdediting
+ * @module basic-styles/q/qediting
  */
 
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import AttributeCommand from '../attributecommand';
 
-const KBD = 'kbd';
+const Q = 'q';
 
 /**
- * The kbd editing feature.
+ * The q editing feature.
  *
- * It registers the `'kbd'` command, the <kbd>Ctrl+I</kbd> keystroke and introduces the `kbd` attribute in the model
+ * It registers the `'q'` command, the <kbd>Ctrl+I</kbd> keystroke and introduces the `q` attribute in the model
  * which renders to the view as an `<i>` element.
  *
  * @extends module:core/plugin~Plugin
  */
-export default class KbdEditing extends Plugin {
+export default class QEditing extends Plugin {
 	/**
 	 * @inheritDoc
 	 */
 	static get pluginName() {
-		return 'KbdEditing';
+		return 'QEditing';
 	}
 
 	/**
@@ -34,22 +34,21 @@ export default class KbdEditing extends Plugin {
 	init() {
 		const editor = this.editor;
 
-		// Allow kbd attribute on text nodes.
-		editor.model.schema.extend('$text', { allowAttributes: KBD });
-		editor.model.schema.setAttributeProperties(KBD, {
+		// Allow q attribute on text nodes.
+		editor.model.schema.extend('$text', { allowAttributes: Q });
+		editor.model.schema.setAttributeProperties(Q, {
 			isFormatting: true,
 			copyOnEnter: true
 		});
 
 		editor.conversion.attributeToElement({
-			model: KBD,
-			view: KBD
+			model: Q,
+			view: Q
 		});
 
+		// Create q command.
+		editor.commands.add(Q, new AttributeCommand(editor, Q));
 
-		// Create kbd command.
-		editor.commands.add(KBD, new AttributeCommand(editor, KBD));
-
-		editor.keystrokes.set('CTRL+SHIFT+K', KBD);
+		editor.keystrokes.set('CTRL+SHIFT+Q', Q);
 	}
 }
