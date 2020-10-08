@@ -36,7 +36,7 @@ export default class QUI extends Plugin {
 				label: t('Q'),
 				description: t('인라인 인용문 요소'),
 				icon: qIcon,
-				keystroke: 'CTRL+SHIFT+Q',
+				keystroke: 'CTRL+SHIFT+U',
 				tooltip: true,
 				isToggleable: true
 			});

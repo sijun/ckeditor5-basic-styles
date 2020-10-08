@@ -49,6 +49,6 @@ export default class QEditing extends Plugin {
 		// Create q command.
 		editor.commands.add(Q, new AttributeCommand(editor, Q));
 
-		editor.keystrokes.set('CTRL+SHIFT+Q', Q);
+		editor.keystrokes.set('CTRL+SHIFT+U', Q);
 	}
 }
